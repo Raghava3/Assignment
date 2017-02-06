@@ -9,8 +9,7 @@ public class LeapYear
 		do
 		{
 			System.out.println("enter the year");
-			int
-			year=scn.nextInt();
+			int year=scn.nextInt();
 			if((year/1000>=1)&&(year/1000<=9))
 			{
 
@@ -30,7 +29,10 @@ public class LeapYear
 
 			System.out.println("enter 1 to continue");
 			n=scn.nextInt();
-			scn.close();
+			
 		}while(n==1);
+	System.out.println("thank u");
 	}
+	
+	
 }
