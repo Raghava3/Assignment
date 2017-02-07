@@ -30,22 +30,22 @@ public class LeapYear
 				else 
 				{
 					System.out.println("not a leap year");
-					
+
 				}
 			}
 			else 
 			{
 				System.out.println("number should be four digit");
 			}
-try{
-			System.out.println("enter 1 to continue");
-			n=scn.nextInt();
-}
-catch(InputMismatchException e)
-{
-	System.out.println("Thank you");
-	System.exit(0);
-}
+			try{
+				System.out.println("enter 1 to continue");
+				n=scn.nextInt();
+			}
+			catch(InputMismatchException e)
+			{
+				System.out.println("Thank you");
+				System.exit(0);
+			}
 		}while(n==1);
 		System.out.println("thank u");
 		scn.close();
